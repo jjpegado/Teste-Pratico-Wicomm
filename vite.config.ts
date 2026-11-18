@@ -1,8 +1,9 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+    base: "/Teste-Pratico-Wicomm/",
     build: {
-        outDir: "dist",
+        outDir: "docs",
         emptyOutDir: true,
     },
 });
